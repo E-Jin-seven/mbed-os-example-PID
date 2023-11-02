@@ -8,9 +8,9 @@
 #define BLINKING_RATE_MS1                                                    10
 #define VCC (3.3)
 #define delta                                                                0.01
-#define KP                                                                   0
-#define KI                                                                   0
-#define KD                                                                   0
+#define KP                                                                   0.3
+#define KI                                                                   1.0
+#define KD                                                                   0.03
 #define target_value                                                         0.5
 DigitalOut Digt0_R(D0);
 DigitalOut Digt1_R(D2);
